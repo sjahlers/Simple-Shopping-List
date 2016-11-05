@@ -1,0 +1,45 @@
+body {
+	margin: 20px;
+	background-color: rgb(105, 105, 105);
+}
+
+h1 {
+	font-family: cursive;
+	color: rgb(182, 164, 255);
+	text-shadow: 1px 1px rgb(221, 213, 255);
+}
+
+ul {
+	list-style-type: none;
+	color: white;
+	font-family: Arial;
+}
+
+li {
+	padding: 5px;
+	margin: 10px;
+}
+
+#total {
+	color: white;
+	font-size: 1.5em;
+	font-family: Arial;
+}
+
+form input, form button {
+	margin: 10px;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+#addtolist {
+	font-family: cursive;
+	background-color: rgb(182, 164, 255);
+	color: rgb(52, 36, 91);
+	border: 1px solid rgb(52, 36, 91);
+	
+}
+
+
+
+
