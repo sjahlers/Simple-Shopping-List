@@ -7,17 +7,24 @@
 
 <body>
 	<h1>My Shopping List</h1>
-	<ul id = "list">
-	</ul>
+	<div id = "display-list">
 	
-	<p id = 'total'>
-	</p>
+		<div id ="center">
+			<p id = "list">
+			</p>
+		</div>
+		<div id = "divTotal">
+			<p id = 'total'>Total: $
+			</p>
+		</div>
+	</div>
+	
 	
 	
 	<form>
 		<input type="text" id="item" placeholder = "Item" size="30">
 		<input type="text" id="price" placeholder = "Price" size="30">
-		<button type ="button" id= "addtolist" onclick="addToList()">Add to My List</button>
+		<button type ="button" id= "addbutton">Add to My List</button>
 	</form>
 	
 

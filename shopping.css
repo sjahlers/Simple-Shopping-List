@@ -1,43 +1,87 @@
 body {
 	margin: 20px;
-	background-color: rgb(105, 105, 105);
+	background-color: rgb(216, 201, 232);
+	font-family: Arial;
 }
 
 h1 {
-	font-family: cursive;
-	color: rgb(182, 164, 255);
-	text-shadow: 1px 1px rgb(221, 213, 255);
+	color: rgb(35, 12, 61);
+	text-shadow: 2px 2px rgb(255, 255, 255);
+	text-align: center;
 }
 
-ul {
-	list-style-type: none;
-	color: white;
-	font-family: Arial;
+#display-list {
+	width: 50%;
+	margin: auto;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid rgb(35, 12, 61);
+	border-radius: 5px;
 }
 
-li {
-	padding: 5px;
-	margin: 10px;
+#center {
+	width: 30%;
+	margin: auto;
+}
+
+#list {
+	color: rgb(35, 12, 61);
+	margin: auto;
+	text-align: right;
 }
 
 #total {
-	color: white;
-	font-size: 1.5em;
-	font-family: Arial;
+	color: rgb(35, 12, 61);
+	font-size: 1.25em;
+	text-align: center;	
+	margin: 0px;
+}
+
+#divTotal {
+	background-color: rgb(249, 235, 124);
+	border-radius: 2px;
+	width: 30%;
+	margin: auto;	
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 form input, form button {
 	margin: 10px;
 	border-radius: 5px;
-	font-size: 1em;
+	font-size: 100%;
 }
 
-#addtolist {
-	font-family: cursive;
-	background-color: rgb(182, 164, 255);
-	color: rgb(52, 36, 91);
-	border: 1px solid rgb(52, 36, 91);
-	
+#addbutton {
+	background-color: rgb(244, 243, 154);
+	color: rgb(35, 12, 61);
+	border: 2px solid rgb(52, 36, 91);
+	padding: 5px;	
+	box-shadow: 0 3px rgb(155, 155, 155);	
+}
+
+#addbutton:hover {
+	background-color: rgb(249, 235, 124);
+}
+
+#addbutton:active {
+	background-color: rgb(226, 225, 145);
+}
+
+form {
+	text-align: center;
+}
+
+@media(max-width: 650px) {
+	#total {
+		font-size: 100%;
+	}
+	#divTotal {
+		width: 60%;
+	}
+	#center {
+		width: 80%;
+	}
 }
 
 
